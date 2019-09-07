@@ -9,7 +9,7 @@ Pytorch Hub makes it extremely easy to load the Style GAN model and pretrained w
 ```python
 import torch
 
-model = torch.hub.load('ndahlquist/lernapparat:0.0.1', 'style_gan', pretrained=True)
+model = torch.hub.load('ndahlquist/pytorch-hub-stylegan:0.0.1', 'style_gan', pretrained=True)
 
 # done! so easy!
 ```
