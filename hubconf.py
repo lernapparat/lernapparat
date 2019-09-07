@@ -15,7 +15,7 @@ def style_gan(pretrained=False, *args, **kwargs):
     model = style_gan.get_style_gan()
 
     checkpoint = 'https://github.com/lernapparat/lernapparat/releases/download/v2019-02-01/karras2019stylegan-ffhq' \
-                 '-1024x1024.for_g_all.pt '
+                 '-1024x1024.for_g_all.pt'
     if pretrained:
         state_dict = model_zoo.load_url(checkpoint, map_location='cpu')
         model.load_state_dict(state_dict)
