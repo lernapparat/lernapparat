@@ -14,7 +14,7 @@ model = torch.hub.load('ndahlquist/pytorch-hub-stylegan:0.0.1', 'style_gan', pre
 # done! so easy!
 ```
 
-See [Torch Hub Example.ipynb](Torch%20Hub%20Example.ipynb) for a complete example
+Open this example in Colab: [![Open Demo in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ndahlquist/pytorch-hub-stylegan/blob/master/demo.ipynb)
 
 ![](docs/example.jpeg)
 
